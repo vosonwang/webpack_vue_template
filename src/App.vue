@@ -1,9 +1,6 @@
 <template>
   <div>
     <router-view/>
-    <Footer :style="{textAlign:'center'}">
-      2013-2030 &copy; voson.me
-    </Footer>
   </div>
 </template>
 
