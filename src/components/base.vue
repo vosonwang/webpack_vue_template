@@ -1,8 +1,10 @@
 <template>
   <Layout>
-    <Header></Header>
+    <Header>
+      <slot name="header"></slot>
+    </Header>
     <Content>
-      <slot></slot>
+      <slot name="content"></slot>
     </Content>
     <Footer :style="{textAlign:'center'}">
       2013-2030 &copy; voson.me
@@ -11,9 +13,7 @@
 </template>
 
 <script>
-    export default {
-        name: "template"
-    }
+  export default {}
 </script>
 
 <style scoped>

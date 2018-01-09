@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+## 前言
+这是一个vue webpack 的工程，使用了：
+iview （它自己也有一个工程项目，但是每次dev都很慢）
+
 ## Build Setup
 
 ``` bash
