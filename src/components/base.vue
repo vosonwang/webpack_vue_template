@@ -4,7 +4,9 @@
       <slot name="header"></slot>
     </Header>
     <Content>
-      <slot name="content"></slot>
+      <div class="wrap">
+        <slot name="content"></slot>
+      </div>
     </Content>
     <Footer :style="{textAlign:'center'}">
       2013-2030 &copy; voson.me
@@ -17,5 +19,9 @@
 </script>
 
 <style scoped>
-
+  .wrap {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center
+  }
 </style>
